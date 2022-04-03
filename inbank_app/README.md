@@ -1,16 +1,20 @@
 # inbank_app
 
-A new Flutter project.
+TechStak:
+1)Coding language - Dart with flutter.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Instructions for build:
 
-A few resources to get you started if this is your first Flutter project:
+For building the app you will need Android emulator and flutter SDK. Flutter sdk instructions: https://docs.flutter.dev/get-started/install To launch android emulator in Android studio you need to open tools tab => AVD manager => and create new emulator.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+For Android Studio:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Open the project folder in Android studio. Navigate to pubspec.yaml in root directory of project. Cick on get all dependencies and upgrade dependencies. Now you can run main.dart and it will work.
+
+
+App has dummy data in it. To use it you need to enter one of these personal code:
+1) 49002010965
+2) 49002010976
+3) 49002010987
+4) 49002010998
