@@ -15,7 +15,7 @@ int? findMin(int a, int b, int c) {
   double score = 0.5;
   int? amount;
 
-  while (score < 1 && b >= 2000) {
+  while (score < 1 && b > 2000) {
     b = b - 500;
     score = (a / b) * c;
   }

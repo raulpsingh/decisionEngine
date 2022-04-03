@@ -29,8 +29,8 @@ class DecisionEngine {
 
         if (score < 1) {
           int? g = findMin(creditScore, loanAmount, loanPeriod);
-          if (g == 2000 && (creditScore / g!) * loanPeriod < 1) {
-            int? newPer = addPeriod(creditScore, g, loanPeriod);
+          if ( (creditScore / g!) * loanPeriod < 1) {
+            int? newPer = addPeriod(creditScore, loanAmount, loanPeriod);
             periodNew = newPer.toString();
           }
           String amountText = g.toString();
